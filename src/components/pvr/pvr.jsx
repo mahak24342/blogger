@@ -1,6 +1,6 @@
 "use client"
 import { ThemeContext } from '@/context/ThemeContext';
-import React from 'react'
+import React,{useContext} from 'react'
 
 const pvr = ({children}) => {
   const {theme} =useContext(ThemeContext);

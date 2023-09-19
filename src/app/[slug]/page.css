@@ -1,0 +1,59 @@
+.v{
+    display: flex;
+    justify-content: space-between;
+gap:50px;
+margin-top:70px;
+}
+.ki{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+.uk{
+    display: flex;
+}
+.opp{
+    border-radius: 20px;
+}
+.contentu{
+    display: flex;
+    flex-direction: column;
+}
+.hk{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+ padding: 20px;  
+}
+
+.hk h4{
+    font-size: 20px;
+}
+.hk p{
+    font-size: 17px;
+    color:rgb(46, 45, 45);
+}
+@media screen and (max-width:820px){
+    .hk h1{
+        font-size: 54px;
+        text-transform: uppercase;
+    }
+    .opp{
+        display: none;
+    }
+    .picc{
+        display: none;
+        visibility: hidden;
+    }
+    .ki{
+        display: none;
+    }
+    .contento{
+        display: flex;
+        flex-direction: column;
+    }
+    .hk p{
+      
+        width:100vw;
+    }
+}

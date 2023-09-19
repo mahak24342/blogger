@@ -1,0 +1,67 @@
+.jk{
+    border-radius: 50px;
+}
+.cont{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    color:var(--softTextColor);
+    
+    
+}
+.log{
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px
+}
+.ingo{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+gap:14px;
+}
+.linkss{
+    flex:1;
+display: flex;
+justify-content: flex-end;
+gap:100px;
+}
+.Tik{
+    font-weight: bold;
+}
+.dox{
+    font-weight: 300;
+}
+.so{
+    margin-top:10px;
+    display: flex;
+    gap:10px;
+}
+.lis{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.listt{
+    display: flex;
+    flex-direction: column; 
+gap:10px;
+
+}
+@media screen and (max-width:768px){
+
+    .cont{
+        flex-direction: column;
+        gap:50px;
+    }
+    .linkss{
+width: 100%;
+justify-content:space-between ;
+font-size: 14px;    
+}
+
+}

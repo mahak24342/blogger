@@ -1,0 +1,12 @@
+.of{
+    flex:5;
+
+}
+.ti{
+    margin:50px 0px;
+}
+@media screen and (max-width:1024px) {
+    .of{
+        display: none;
+    }
+}

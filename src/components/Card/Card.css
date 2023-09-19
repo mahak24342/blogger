@@ -1,0 +1,35 @@
+.containner{
+    margin-bottom: 50px;
+    display: flex;
+    gap:50px;
+align-items: center;
+
+}
+.mg{
+    flex:1;
+    height:350px;
+    position:relative;
+}
+.cor{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.ol{
+    object-fit: cover;
+}
+.des{
+    font-size:18px;
+    font-weight: 300;
+    color:var(--softTextColor);
+}
+.cap{
+    color:red;
+    font-weight: 500;
+}
+.lof{
+border-bottom: 1px solid red;
+width:max-content;
+padding: 2px 0px;
+}

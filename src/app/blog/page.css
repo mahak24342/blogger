@@ -1,0 +1,12 @@
+.tu{
+    background-color: coral;
+color:white;
+padding: 5px 10px;
+text-align: center;
+}
+.op{
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+    
+}

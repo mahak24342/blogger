@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
 import { ThemeContextProvider } from '@/context/ThemeContext'
 import ThemeProvider from '@/Provider/ThemeProvider'
+import AuthProvider from '@/Provider/AuthProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <AuthProvider>
         <ThemeContextProvider>
         <ThemeProvider>
     <div className='container'>
@@ -31,7 +33,9 @@ export default function RootLayout({ children }) {
         </div>
         </ThemeProvider>
         </ThemeContextProvider>
+        </AuthProvider>
         </body>
+       
     </html>
   )
 }
